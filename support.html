@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pofu — Support</title>
+<style>
+  :root { --bg:#241d47; --deep:#161231; --ink:#F2EEFF; --soft:#BFB6E0; --pink:#ff6b8a; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:linear-gradient(180deg,var(--bg),var(--deep)); color:var(--ink);
+    font-family:-apple-system,"Helvetica Neue",Segoe UI,Roboto,sans-serif; line-height:1.65; }
+  main { max-width:720px; margin:0 auto; padding:64px 24px 96px; }
+  .marks { display:flex; gap:10px; margin-bottom:28px; }
+  .p { width:34px; height:34px; border-radius:50%; }
+  h1 { font-weight:400; letter-spacing:0.5px; font-size:40px; margin:0 0 6px; }
+  .sub { color:var(--soft); margin:0 0 40px; letter-spacing:2px; font-size:13px; text-transform:uppercase; }
+  h2 { font-weight:500; font-size:22px; margin:36px 0 10px; }
+  p, li { color:var(--soft); }
+  strong { color:var(--ink); }
+  a { color:var(--pink); }
+  .card { background:rgba(255,255,255,0.06); border:1px solid rgba(255,255,255,0.10);
+    border-radius:16px; padding:20px 24px; margin:24px 0; }
+  footer { color:var(--soft); font-size:13px; margin-top:48px;
+    border-top:1px solid rgba(255,255,255,0.12); padding-top:24px; }
+  nav a { margin-right:18px; }
+</style>
+</head>
+<body>
+<main>
+  <div class="marks">
+    <span class="p" style="background:#ff6b8a"></span>
+    <span class="p" style="background:#06d6a0"></span>
+    <span class="p" style="background:#ffd166"></span>
+    <span class="p" style="background:#c792ea"></span>
+  </div>
+  <h1>Support</h1>
+  <p class="sub">Pofu · Erek Studio</p>
+
+  <div class="card">
+    <strong>Write to us:</strong>
+    <a href="mailto:mustafasalimerek@gmail.com">mustafasalimerek@gmail.com</a><br>
+    Tell us your device, the level number in the corner of the screen, and what
+    you saw. The level number is enough for us to load the exact board you were
+    playing.
+  </div>
+
+  <h2>How the game works</h2>
+  <p>Touch one pofu. Every pofu of the same colour that it is standing against
+  goes with it, corners included — then everything above the gap falls, so the
+  order you touch in decides the board. There are no words anywhere in the game:
+  the rules are drawn behind the <strong>i</strong> at the top of the screen, one
+  page per kind of pofu on the board in front of you.</p>
+
+  <h2>My progress is gone</h2>
+  <p>Progress is stored on the device and is not linked to any account, so it
+  does not survive deleting the app or moving to a new phone. There is no way for
+  us to restore it from our side — we hold nothing about you.</p>
+
+  <h2>A level looks impossible</h2>
+  <p>Every one of the three hundred boards is stored with a solution that the
+  test suite replays through the rules the game actually runs, so each board can
+  be finished. If one looks stuck, the order is usually the answer: taking a
+  group early can drop a colour somewhere nothing reaches. The retry arrow costs
+  nothing.</p>
+
+  <h2>Ads</h2>
+  <p>An ad appears between levels every so often, and never while you are playing
+  a board. The video offers beside the board — another blast, your last touch
+  back, one hazard removed, or carrying on after your touches run out — are
+  always optional, and no level needs them. If no video is ready, or you are
+  offline, those buttons are simply not shown.</p>
+
+  <h2>Privacy</h2>
+  <p>We collect nothing. The details are on the <a href="./">privacy page</a>.</p>
+
+  <footer>
+    <nav><a href="./">Privacy</a><a href="support.html">Support</a></nav>
+    Erek Studio · Mustafa Salim Erek · Last updated 30 July 2026
+  </footer>
+</main>
+</body>
+</html>
